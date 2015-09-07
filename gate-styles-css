@@ -1,0 +1,140 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* TYPOGRAPHY */
+
+
+
+body {
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	color: #555555;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: .8em;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+	line-height: 1.3em;
+}
+
+h1 {
+	font-size: 28px;
+	margin-top: 0;
+	margin-bottom: 0em;
+	font-weight: normal;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	font-size: 21px;
+	margin-top: 1.5em;
+	margin-bottom: 0em;
+	font-weight: 700;
+}
+
+h3 {
+	margin-top: 1em;
+	margin-bottom: 0;
+	font-weight: 700;
+}
+
+.introduction {
+	/* same as <p> for now, but use this style in case it changes */
+}
+
+.instructions {
+	font-style: italic;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+/* Side notes have a different background color in each module */
+
+.side-note-grademod-left {
+	float:left;
+	margin: .5em 1em .5em 0;
+	padding: .5em;
+	width:160px;
+	background-color: #999;
+	color: #fff;
+	font-weight: 600;
+	font-size: 17px;
+	font-style: italic;
+	clear: both;
+}
+
+.side-note-grademod-right {
+	float:right;
+	margin: .5em 0 .5em 1em;
+	padding: .5em;
+	width:160px;
+	background-color: #999;
+	color: #fff;
+	font-weight: 600;
+	font-size: 17px;
+	font-style: italic;
+}
+
+.side-note-appmod-left {
+	float:left;
+	margin: .5em 1em .5em 0;
+	padding: .5em;
+	width:160px;
+	background-color: #3f7abc;
+	color: #fff;
+	font-weight: 600;
+	font-size: 17px;
+	font-style: italic;
+	clear: both;
+}
+
+/* DEV TEAM: Follow on as shown with right side notes as needed */
+
+.side-note-testmod-left {
+	float:left;
+	margin: .5em 1em .5em 0;
+	padding: .5em;
+	width:160px;
+	background-color: #699700;
+	color: #fff;
+	font-weight: 600;
+	font-size: 17px;
+	font-style: italic;
+	clear: both;
+}
+
+.side-note-essaymod-left {
+	float:left;
+	margin: .5em 1em .5em 0;
+	padding: .5em;
+	width:160px;
+	background-color: #f7b978;
+	color: #fff;
+	font-weight: 600;
+	font-size: 17px;
+	font-style: italic;
+	clear: both;
+}
+
+blockquote {
+	width: 60%;
+	margin: 1em auto;
+	color: #444;
+	line-height: 1.5em;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+/* Special copy types */
+
+img .rufus {
+	/* tbd */
+}
+
+.example-answer {
+	width: 80%;
+	margin: 1em auto;
+	border: solid #888;
+	border-width: 1px 1px 4px;
+	padding: 2em;
+	font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
